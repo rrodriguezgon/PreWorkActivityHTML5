@@ -1,0 +1,105 @@
+<html>
+    <head>
+
+        <style>
+
+            body {
+                background-color: gray; 
+                margin:0px;
+            }
+
+            #SectionHead{
+                background-color: red;
+                height: 20%;        
+                margin: 0% 2% 2% 2%;
+                border-radius: 0px 0px 20px 20px;
+                display: block;
+            }
+
+            #SectionBody {                
+                height:78%;
+                display: -webkit-flex;
+                -webkit-flex-direction: row;
+                display: flex;
+                flex-direction: row;                
+            }
+            
+            #SectionLeft {
+                width: 20%;
+                height: 100%;
+                margin: 0% 2% 2% 2%;                
+                display: -webkit-flex;
+                -webkit-flex-direction: column;
+                display: flex;
+                flex-direction: column;
+            }
+
+            #SectionRight {
+                width: 80%;
+                height: 100%;
+                display: -webkit-flex;
+                -webkit-flex-direction: column;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .box{
+                border-radius: 15px;
+                background: yellow;
+                margin: 1%;
+                padding: 1%;
+            }  
+
+            #SectionRight > .box:nth-child(odd){
+                padding-left:15%;
+            }
+
+            #SectionRight > .box:nth-child(even){
+                padding-right:15%;
+            }       
+
+        </style>
+    </head>
+    <body>
+        <div id="SectionHead">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+        </div>
+        <div id="SectionBody">
+            <div id="SectionLeft" class="SectionsBody">
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                </div> 
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                </div> 
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                </div> 
+            </div>
+            <div id="SectionRight" class="SectionsBody">
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                </div>           
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                </div>
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                </div>
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                </div>     
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                </div>     
+            </div>
+        </div>
+    </body>
+</html>
