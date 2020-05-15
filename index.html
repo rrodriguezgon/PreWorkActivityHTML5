@@ -1,103 +1,100 @@
 <html>
     <head>
-
-        <style>
-
-            body {
-                background-color: gray; 
-                margin:0px;
-            }
-
-            #SectionHead{
-                background-color: red;
-                height: 20%;        
-                margin: 0% 2% 2% 2%;
-                border-radius: 0px 0px 20px 20px;
-                display: block;
-            }
-
-            #SectionBody {                
-                height:78%;
-                display: -webkit-flex;
-                -webkit-flex-direction: row;
-                display: flex;
-                flex-direction: row;                
-            }
-            
-            #SectionLeft {
-                width: 20%;
-                height: 100%;
-                margin: 0% 2% 2% 2%;                
-                display: -webkit-flex;
-                -webkit-flex-direction: column;
-                display: flex;
-                flex-direction: column;
-            }
-
-            #SectionRight {
-                width: 80%;
-                height: 100%;
-                display: -webkit-flex;
-                -webkit-flex-direction: column;
-                display: flex;
-                flex-direction: column;
-            }
-
-            .box{
-                border-radius: 15px;
-                background: yellow;
-                margin: 1%;
-                padding: 1%;
-            }  
-
-            #SectionRight > .box:nth-child(odd){
-                padding-left:15%;
-            }
-
-            #SectionRight > .box:nth-child(even){
-                padding-right:15%;
-            }       
-
-        </style>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <div id="SectionHead">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+        <div id="SectionHead">            
         </div>
         <div id="SectionBody">
             <div id="SectionLeft" class="SectionsBody">
                 <div class="box">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                    <h3>Select a Design</h3>
+                    <div class="item-list">
+                        <li>Mid Century Modern</li>
+                        <p>by <strong>Andrew Lohman</strong></p>
+                    </div>
+                    <div class="item-list">
+                        <li>Garments</li>
+                        <p>by <strong>Dan Mall</strong></p>
+                    </div>
+                    <div class="item-list">
+                        <li>Steel</li>
+                        <p>by <strong>Steffen knoeller</strong></p>
+                    </div>
+                    <div class="item-list">
+                        <li>Apothecary</li>
+                        <p>by <strong>Trent Walton</strong></p>
+                    </div>
+                    <div class="item-list">
+                        <li>Screen Filler</li>
+                        <p>by <strong>Elliot Jay Stocks</strong></p>
+                    </div>
+                    <div class="item-list">
+                        <li>Fountain Kiss</li>
+                        <p>by <strong>Jeremy Carlson</strong></p>
+                    </div>
+                    <div class="item-list">
+                        <li>A Robot Name Jimmy</li>
+                        <p>by <strong>meltmedia</strong></p>
+                    </div>
+                    <div class="item-list">
+                        <li>Verde Moderna</li>
+                        <p>by <strong>Andrew Lohman</strong></p>
+                    </div>
                 </div> 
                 <div class="box">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                    <h3>Archives</h3>
+                    <div class="item-list">
+                        <li>Next Designs > </li>
+                    </div>
+                    <div class="item-list">
+                        <li>View All Designs</li>
+                    </div>
                 </div> 
                 <div class="box">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                    <h3>Resources</h3>
+                    <div class="item-list">
+                        <li>View the Design's CSS</li>
+                    </div>                    
+                    <div class="item-list">
+                        <li>CSS Resources</li>
+                    </div>                    
+                    <div class="item-list">
+                        <li>FAQ</li>
+                    </div>
+                    <div class="item-list">
+                        <li>Submit a Design</li>
+                    </div>
+                    <div class="item-list">
+                        <li>Translations</li>
+                    </div>
                 </div> 
             </div>
             <div id="SectionRight" class="SectionsBody">
                 <div class="box">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                    <p>Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam.</p>
+                    <p>Maiores veritatis <span class="underline colorViolet">quisquam</span> ut reprehenderit <span class="underline colorViolet">nulla</span> dolorum quod saepe!</p>
                 </div>           
                 <div class="box">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                    <h3>The Road to Enlightenment</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, <span class="underlineDashed">dolores</span> odit incidunt <span class="underlineDashed">repudiandae</span> ipsa ipsum aspernatur dicta fuga quisquam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt <span class="underlineDashed">repudiandae</span> ipsa ipsum <span class="underlineDashed">aspernatur</span> dicta fuga quisquam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum  dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
                 </div>
                 <div class="box">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                    <h3>So What is this About?</h3>                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, <span class="underlineDashed">dolores</span> odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis <span class="underlineDashed">dolores</span> ut reprehenderit nulla dolorum quod saepe!Maiores <span class="underlineDashed">dolores</span> quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                    <p><span class="underlineDashed">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
                 </div>
                 <div class="box">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                    <h3>Participation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur <span class="underlineDashed">adipisicing</span> elit. Nihil, voluptate itaque, dolores odit incidunt <span class="underlineDashed">repudiandae</span> ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut <span class="underline colorViolet">reprehenderit nulla dolorum </span> quod saepe!Maiores veritatis quisquam ut reprehenderit  <span class="underlineDashed">nulla</span> dolorum quod saepe!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut  <span class="underlineDashed">reprehenderit</span>span> nulla dolorum quod saepe!</p>
+                    <p>Lorem ipsum dolor sit amet <span class="underline colorViolet">consectetur</span> adipisicing elit. <span class="underline colorViolet">Nihil</span>, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
                 </div>     
                 <div class="box">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>
+                    <h3>Benefits</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptate itaque, dolores odit incidunt repudiandae ipsa ipsum aspernatur dicta fuga quisquam. Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!Maiores veritatis quisquam ut reprehenderit nulla dolorum quod saepe!</p>                    
                 </div>     
             </div>
         </div>
